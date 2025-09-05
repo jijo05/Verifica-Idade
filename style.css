@@ -1,0 +1,21 @@
+body {
+    background-color: blueviolet;
+    color: black;
+    font: normal 15pt Arial;
+}
+header {
+    text-align: center;
+}
+section {
+    background: white;
+    text-align: center;
+    box-shadow: 5px 5px 10px black;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+footer {
+    text-align: center;
+}
