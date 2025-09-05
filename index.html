@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificador de idade.</title>
+</head>
+<body>
+    <header>
+        <strong>Verificador de idade.</strong>
+    </header>
+    <section>
+        <div>
+            <p>Data de nascimento:
+                <input type="number" name="txtano" id="txtano">
+            </p>
+            <p>Identidade de gênero
+                <input type="radio" name="radgen" id="hom">
+                <label for="hom">Homem Cis</label>
+                <input type="radio" name="radgen" id="mul">
+                <label for="mul">Mulher Cis</label>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            Aqui ira aparecer o resultado.
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Jillian Dias</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
